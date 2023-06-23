@@ -1,0 +1,316 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+    .container {
+        max-width: 1190px;
+    }
+    .about-area {
+        position: relative;
+        padding: 150px 0;
+    }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 982px;
+    }
+    .slider-text h2 {
+        font-size: 62px;
+    }
+    .bottom-slider-btn a.bottom-btn {
+        font-size: 18px;
+        width: 178px;
+        line-height: 2;
+    }
+    .slider-bg-bot-text-right p {
+        left: 135px;
+    }
+    .button2.pt-100 {
+        padding-top: 50px;
+    }
+    .button.text-center.pt-200 {
+        padding-top: 100px;
+    }
+    .Reach-Out-area.black-bg.pt-100.pb-200 {
+        padding-bottom: 100px;
+    }
+    .about-text p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .footer-text ul li {
+        margin-right: 18px;
+    }
+    .footer-text ul li a {
+        font-size: 15px;
+    }
+    .footer {
+        padding: 50px 100px;
+        padding-bottom: 10px;
+    }
+    .footer-text p {
+        margin-bottom: 18px;
+    }
+    
+    .slider-active {
+        margin-top: -8%;
+    }
+    .slider-bg-bot-text span::before {
+        left: 20px;
+        margin-top: 20px;
+    }
+    .slider-bg-bot p {
+        font-weight: 300;
+        margin-bottom: 0;
+        font-size: 16px;
+        color: #fff;
+        display: block;
+        margin-left: 57px;
+    }
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 758px;
+    }
+    .slider-bg-bot-text h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .slider-bg-bot-text span::before {
+        left: 20px;
+        margin-top: 20px;
+    }
+    .slider-bg-bot p {
+        font-weight: 300;
+        margin-bottom: 0;
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        display: block;
+        position: absolute;
+        width: 83%;
+    }
+    .main-menu ul li a {
+        font-size: 18px;
+    }
+    .slider-text h2 {
+        font-size: 50px;
+    }
+    .slider-text a.button {
+        padding: 20px 75px;
+    }
+    .slider-text a.button {
+        width: 310px;
+        height: 82px;
+    }
+    .slider-text a.button1 {
+        width: 310px;
+        height: 82px;
+    }
+    .bottom-slider-btn a.bottom-btn {
+        font-size: 15px;
+        width: 140px;
+        line-height: 40px;
+    }
+    .bottom-content.text-center {
+	    padding-top: 20%;
+    }
+    .slider-active {
+        margin-top: -8%;
+    }
+    .slider-bg-bot-text-right p {
+        left: 50px;
+    }
+    .about-area {
+        position: relative;
+        padding: 100px 0;
+    }
+    .about-text p {
+        font-size: 11px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .about.pt-200.pb-285 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .about-title.pt-60 {
+        margin-left: 0;
+        padding-top: 0;
+    }
+    .footer {
+        padding: 50px 50px;
+        padding-bottom: 10px;
+    }
+    .footer-text ul li {
+        margin-right: 9px;
+    }
+    .footer-text ul li a {
+        font-size: 14px;
+    }
+    .footer-text p {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .main-menu ul {
+        display: none;
+    }
+    /* humbuger-menu-start */
+    .icon {
+       display: block;
+    }   
+    .slider-content p {
+       font-size: 17px;
+    }   
+    .card-body {
+       font-size: 13px;
+    }   
+    .response-menu ul {
+       display: block;
+    }
+    /* humbuger-menu-end */
+   .logo img {
+	width: 30%;
+   }
+   .main-menu ul li.active::before {
+	display: none;
+   }
+   .icon {
+	display: block;
+}
+.humbuger {
+	top: -20px;
+	left: 90%;
+	position: absolute;
+}
+.response-menu ul {
+	top: 25px;
+	width: 100%;
+	position: absolute;
+	height: 660px;
+}
+.slider-text a.button {
+	margin-bottom: 20px;
+	padding: 20px 60px;
+	z-index: 0;
+}
+.slider-text {
+	margin-top: 250px;
+	display: block;
+}
+.slider-text a.button1 {
+	padding: 19px 77px;
+	z-index: 0;
+}
+.bottom-content.text-center {
+	padding-top: 30%;
+}
+.slider-text h2 {
+	font-size: 27px;
+}
+.bottom-slider-btn a.bottom-btn {
+	font-size: 16px;
+	width: 140px;
+	line-height: 42px;
+	z-index: 0;
+}
+.slider-bg.black-bg.pb-50 {
+	text-align: center;
+}
+.slider-bg-bot p {
+	margin-left: -16px;
+	font-size: 14px;
+}
+.slider-bg-bot-text span {
+	display: none;
+}
+.owl-dots {
+	margin-left: 0;
+}
+.about.pt-200.pb-285 {
+	text-align: center;
+}
+.about-button a {
+	margin-bottom: 40px;
+}
+.about.pt-200.pb-285 {
+	padding-top: 0;
+}
+.Reach-Out-area.black-bg.pt-100.pb-200 {
+	padding-bottom: 100px;
+}
+.Reach-bottom-text {
+	text-align: center;
+}
+.Reach-bottom-text ul li {
+	margin-right: 30px;
+}
+.button2.pt-100 {
+	padding-top: 40px;
+}
+.footer {
+	text-align: center;
+}
+.footer-social.f-right {
+	margin-top: 18px;
+	float: none;
+}
+.footer-social.f-right a i {
+	margin-left: 0px;
+}
+.footer {
+	padding: 50px 50px;
+}
+.pb-285 {
+	padding-bottom: 65px;
+}
+.slider-bg.black-bg.pb-50 {
+	margin-top: -50px;
+}
+.slider-bg img {
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+.slider-bg-bot-text h2 {
+	font-size: 30px;
+}
+.about-title {
+	margin-left: 0;
+}
+.about-img img {
+	position: absolute;
+	left: 0;
+	top: 79%;
+	width: 100%;
+	transform: translateY(-50%);
+}
+.about-area {
+	position: relative;
+	padding: 200px 0;
+	text-align: center;
+	padding-bottom: 400px;
+}
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}
